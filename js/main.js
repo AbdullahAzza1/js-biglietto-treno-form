@@ -9,7 +9,8 @@ const tariffa = "0.21"
 buttone.addEventListener("click", function() {
 
 
-    alert("L'utente  " + input.value);
+    alert(nomeCognome.value);
+    alert(kmDaPercorre.value);
 });
 
 if( kmDaPercorre==null || kmDaPercorre=="" ) {
