@@ -1,10 +1,9 @@
-
+const el = document.querySelector("#message");
 const nomeCognome = document.querySelector("#buttonName")
 const kmDaPercorre = document.querySelector("#buttonKm");
-const buttone = document.querySelector("buttone");
+const buttone = document.querySelector("#buttone");
 //const eta = parseInt(prompt("eta del passeggero"))
 const tariffa = "0.21"
-const element = document.getElementById("message");
 
 
 buttone.addEventListener("click", function() {
