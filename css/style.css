@@ -6,20 +6,6 @@
 .inserireDati{
     width: 11vw;
     height: 4vh;
+    margin: 2%;
 }
-/*<div class="inserireDati">
-        <div>Nome e cognome</div>
-        <input type="text" id="buttonName">
-    </div>
-    <div class="inserireDati">
-        <div>km da percorrere</div>
-        <input type="text" id="buttonName">
-    </div>
-    <div class="inserireDati">
-        <label for="eta">fascia eta</label>
-        <select name="eta" id="eta">
-            <option value="maggiorenne">maggiorenne</option>
-            <option value="minorenne">minorenne</option>
-            <option value="over65">over65</option>
-        </select>
-    </div>
+/*
