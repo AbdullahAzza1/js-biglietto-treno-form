@@ -1,6 +1,7 @@
+
 const nomeCognome = document.querySelector("#buttonName")
 const kmDaPercorre = document.querySelector("#buttonKm");
-const buttone = document.querySelector("buttone")
+const buttone = document.querySelector("buttone");
 //const eta = parseInt(prompt("eta del passeggero"))
 const tariffa = "0.21"
 const element = document.getElementById("message");
@@ -9,8 +10,17 @@ const element = document.getElementById("message");
 buttone.addEventListener("click", function() {
 
 
-    alert("L'utente ha scritto: " + input.value);
+    alert("L'utente  " + input.value);
 });
+
+if( kmDaPercorre==null || kmDaPercorre=="" ) {
+    el.classList.add("error");
+    el.innerHTML = "Utente anonimo, non sei il benvenuto";
+
+} else {
+    el.classList.add("valid");
+    el.innerHTML = `Benvenuto, ${kmDaPercorre}`;
+}
 
 console.log(buttone)
 
