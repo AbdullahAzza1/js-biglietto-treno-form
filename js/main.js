@@ -4,6 +4,7 @@ const kmDaPercorre = document.querySelector("#buttonKm");
 const buttone = document.querySelector("#buttone");
 //const eta = parseInt(prompt("eta del passeggero"))
 const tariffa = "0.21"
+let message = ""
 
 
 buttone.addEventListener("click", function() {
@@ -41,5 +42,5 @@ if (Number.isFinite(eta) && Number.isFinite(kmDaPercorre )){
     
     }
 console.log(costo)
-
+message += `Costo biglietto: ${alKm.toFixed(2)} €`;
 }
