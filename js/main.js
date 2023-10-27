@@ -12,11 +12,15 @@ if (Number.isFinite(eta) && Number.isFinite(kmDaPercorre )){
     console.log(alKm)
 
     if ( eta < 18){
+
         costo = (alKm / 100) * 80;
         message = "per junior "
+        
     } else if(eta > 65){
+
         costo = (alKm / 100) * 60;
         message = "per over65 "
+    
     }
 
 
