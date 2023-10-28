@@ -1,10 +1,10 @@
-const el = document.querySelector("#message");
+const eta = document.getElementById("eta")
 const nomeCognome = document.querySelector("#buttonName")
 const kmDaPercorre = document.querySelector("#buttonKm");
 const buttone = document.querySelector("#buttone");
-//const eta = parseInt(prompt("eta del passeggero"))
+
 const tariffa = "0.21"
-let message = ""
+//let message = ""
 
 
 buttone.addEventListener("click", function() {
@@ -14,16 +14,11 @@ buttone.addEventListener("click", function() {
     alert(kmDaPercorre.value);
 });
 
-if( kmDaPercorre==null || kmDaPercorre=="" ) {
-    el.classList.add("error");
-    el.innerHTML = "Utente anonimo, non sei il benvenuto";
 
-} else {
-    el.classList.add("valid");
-    el.innerHTML = `Benvenuto, ${kmDaPercorre}`;
-}
 
-console.log(buttone)
+
+
+//console.log(buttone)
 
 if (Number.isFinite(eta) && Number.isFinite(kmDaPercorre )){
     
@@ -42,5 +37,5 @@ if (Number.isFinite(eta) && Number.isFinite(kmDaPercorre )){
     
     }
 console.log(costo)
-message += `Costo biglietto: ${alKm.toFixed(2)} €`;
+
 }

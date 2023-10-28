@@ -8,4 +8,11 @@
     height: 4vh;
     margin: 2%;
 }
-/*
+/*if( kmDaPercorre==null || kmDaPercorre=="" ) {
+    el.classList.add("error");
+    el.innerHTML = "Utente anonimo, non sei il benvenuto";
+
+} else {
+    el.classList.add("valid");
+    el.innerHTML = `Benvenuto, ${kmDaPercorre}`;
+}
